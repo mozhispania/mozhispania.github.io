@@ -6,5 +6,10 @@ author:
   name: 'Pascal Chevrel'
   url: 'https://www.chevrel.org/'
 image: cecil-card.png
+language: es
+languages:
+  - code: es     # unique code (e.g.: `en`, `fr`, 'en-US', `fr-CA`)
+    name: Españl     # human readable name (e.g.: `Français`)
+    locale: es_ES # locale code (`language_COUNTRY`, e.g.: `en_US`, `fr_FR`, `fr_CA`)
 output:
   dir: docs

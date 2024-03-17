@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://mozhispania.github.io/</id>
+  <title>Participar a Mozilla en España</title>
+  <subtitle><![CDATA[Micro-sitio de presentación de las oportunidades de colaboración de voluntarios españoles con Mozilla]]></subtitle>
+  <link href="https://mozhispania.github.io/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://mozhispania.github.io/" rel="alternate" type="text/html" />
+  <updated>2024-03-17T19:17:30+00:00</updated>
+  <author>
+    <name>Pascal Chevrel</name>
+    <uri>https://www.chevrel.org/</uri>
+  </author>
+</feed>

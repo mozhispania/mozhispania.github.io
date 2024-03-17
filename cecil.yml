@@ -1,0 +1,10 @@
+title: 'Participar a Mozilla en España'
+baseline: 'Micro-sitio de presentación de las oportunidades de colaboración de voluntarios españoles con Mozilla'
+baseurl: 'https://mozhispania.github.io/'
+description: 'Micro-sitio de presentación de las oportunidades de colaboración de voluntarios españoles con Mozilla'
+author:
+  name: 'Pascal Chevrel'
+  url: 'https://www.chevrel.org/'
+image: cecil-card.png
+output:
+  dir: docs

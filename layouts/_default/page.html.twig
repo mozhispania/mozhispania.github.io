@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+  <head>
+    {%- block head ~%}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    {%- include 'partials/metatags.html.twig' with {page, site} only ~%}
+    <style>{% apply minify_css %}
+      {%- include 'partials/new.css.twig' ~%}
+
+    {% endapply %}</style>
+    {%- endblock head ~%}
+  </head>
+  <body>
+    <header>
+      {%- block header ~%}
+      {%- if page.type == 'homepage' ~%}
+      <h1>{{ site.title }}</h1>
+      {%- else ~%}
+      <div class="title">
+        <a href="{{ url(site.home) }}">{{ site.title }}</a>
+      </div>
+      {%- endif ~%}
+      {%- include 'partials/navigation.html.twig' with {menu: site.menus.main} only ~%}
+      {%- endblock header ~%}
+    </header>
+    <main>
+      {%- block content ~%}
+      {{ page.content }}
+      {%- endblock content ~%}
+      {#- debug ~#}
+      {%- if getenv('CECIL_DEBUG') %}{{ d(page) }}{% endif ~%}
+    </main>
+    <footer>
+      {%- block footer ~%}
+      {%- set powered_by -%}
+      <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
+      {%- endset ~%}
+      <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
+      {%- endblock footer ~%}
+    </footer>
+  </body>
+</html>

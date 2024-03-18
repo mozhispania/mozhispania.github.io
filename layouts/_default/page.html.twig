@@ -167,6 +167,7 @@
     </main>
     <footer>
       {%- block footer ~%}
+      <i>Página generada el: {{ page.date|format_date('long') }}</i>
       {%- endblock footer ~%}
     </footer>
   </body>

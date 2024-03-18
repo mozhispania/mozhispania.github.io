@@ -1,5 +1,6 @@
 ---
 title:  Inicio
+date: 2024-03-18
 ---
 Este sitio presenta las oportunidades de colaboración open source con Firefox en España.
 
@@ -18,4 +19,4 @@ La idea es mejorar el ecosistema de Firefox (y de Mozilla en general) en el paí
 1. Ayudar a contestar y publicar en la cuenta X oficial de [Firefox España](https://twitter.com/firefox_es)
 1. Acoger a los que quieren participar en Mozilla.
 
-¿Tienes ideas?, Quieres participar?  Entra en la sala de discusión "Spain" que tenemos en nuestra instancia de Matrix y hablamos: https://chat.mozilla.org/#/room/#spain:mozilla.org***
+***¿Tienes ideas?, Quieres participar?  Entra en la sala de discusión "Spain" que tenemos en nuestra instancia de Matrix y hablamos: https://chat.mozilla.org/#/room/#spain:mozilla.org***

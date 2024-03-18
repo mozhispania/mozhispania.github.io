@@ -2,13 +2,34 @@
 <?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://mozhispania.github.io/</id>
-  <title>Participar a Mozilla en España</title>
+  <title>Participar en Firefox y Mozilla en España</title>
   <subtitle><![CDATA[Micro-sitio de presentación de las oportunidades de colaboración de voluntarios españoles con Mozilla]]></subtitle>
   <link href="https://mozhispania.github.io/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://mozhispania.github.io/" rel="alternate" type="text/html" />
-  <updated>2024-03-17T23:03:04+00:00</updated>
+  <updated>2024-03-18T14:45:47+00:00</updated>
   <author>
     <name>Pascal Chevrel</name>
-    <uri>https://www.chevrel.org/</uri>
+    <uri>https://www.mozilla.org/</uri>
   </author>
+  <entry xml:lang="es">
+    <id>https://mozhispania.github.io/a-proposito/</id>
+    <title>Acerca de este sitio</title>
+    <content type="html">
+      <![CDATA[<h3 id="interesado-en-participar-en-un-proyecto-de-creación-de-comunidad-mozilla-en-españa">¿Interesado en participar en un proyecto de creación de comunidad Mozilla en España?</h3>
+<p><br>
+Mozilla es uno de los proyectos de software libre y de defensa la web abierta más importantes en el mundo.</p>
+<p>Respaldada por la Mozilla Foundation y contando con un poco menos de 1000 empleados en el mundo, Mozilla compite tanto con gigantes (Google, Apple, Microsoft) como con otras empresas de tamaño similar.</p>
+<p>Igual que otros proyectos de software y conocimiento libre como Wikipedia, Linux o Open Street Map, Mozilla solo puede competir frente a dichos gigantes porque contamos con el apoyo de aliados y comunidades a nivel local.</p>
+<p>Dichas comunidades o individuos nos ayudan montando eventos de web abierta, traduciendo documentación, ayudando con social media en su idioma, aportando ideas o simplemente comunicándonos qué problemas encuentran en el uso de Firefox y otro software creado por Mozilla en su país.</p>
+<p>Actualmente, estoy intentando coordinar esos esfuerzos en España en un proyecto tipo &quot;<a href="https://en.wikipedia.org/wiki/Paper_cut_bug">100 papercuts</a>&quot; enfocado al éxito de Mozilla en España.</p>
+<p>Si estáis interesados en participar podéis uniros a la sala de discusión &quot;Spain&quot; que tenemos en nuestra instancia de Matrix: <a href="https://chat.mozilla.org/#/room/#spain:mozilla.org">https://chat.mozilla.org/#/room/#spain:mozilla.org</a></p>
+<p>Todas las buenas voluntades son bienvenidas, y claro, no hace falta ser técnico para participar en Mozilla.</p>
+<p>¡Gracias!</p>
+<p><em>Pascal Chevrel</em><br>
+<em>Firefox Release Manager</em></p>]]>
+    </content>
+    <link href="https://mozhispania.github.io/a-proposito/" rel="alternate" type="text/html" />
+    <published>2024-03-18T14:45:47+00:00</published>
+    <updated>2024-03-18T14:45:47+00:00</updated>
+  </entry>
 </feed>

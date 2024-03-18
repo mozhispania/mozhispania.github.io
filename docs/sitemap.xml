@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mozhispania.github.io/</loc>
-    <lastmod>2024-03-17</lastmod>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mozhispania.github.io/a-proposito/</loc>
+    <lastmod>2024-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

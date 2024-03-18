@@ -9,7 +9,138 @@
     {%- include 'partials/metatags.html.twig' with {page, site} only ~%}
     <style>{% apply minify_css %}
       {%- include 'partials/new.css.twig' ~%}
-
+      {%- include 'mozhispania/gaudi.css.twig' ~%}
+      /* new.css enhancements */
+      :root body > header {
+        --nc-lk-1: #006be9;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root body > header {
+          --nc-lk-1: var(--nc-d-lk-1);
+        }
+      }
+      body {
+        overflow-y: scroll;
+      }
+      body > header .title {
+        line-height: 1;
+        color: var(--nc-tx-1);
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 8px;
+        border-bottom: 0;
+        font-size: 2.25rem;
+        font-weight: bold;
+      }
+      body > header .title > a {
+        color: var(--nc-tx-1);
+        text-decoration: none;
+      }
+      body > header .title > a:hover {
+        color: var(--nc-tx-1);
+      }
+      nav ol:not(main), nav ul:not(main) {
+        padding: 0;
+        margin: 0;
+      }
+      nav li:not(main) {
+        display: inline-block;
+        margin: 0 .5rem .5rem 0;
+      }
+      nav a:not(main) {
+        text-decoration: none;
+      }
+      nav a:hover:not(main) {
+        text-decoration: underline;
+      }
+      main header {
+        background: unset;
+        border-bottom: unset;
+        padding: unset;
+        margin: unset;
+        padding-left: unset;
+        padding-right: unset;
+      }
+      main header h1,
+      main header h2,
+      main header h3 {
+        padding-bottom: unset;
+        border-bottom: unset;
+      }
+      main header > *:first-child {
+        margin-top: unset;
+        padding-top: unset;
+      }
+      main header > *:last-child {
+        margin-bottom: unset;
+      }
+      main img {
+        height: auto;
+      }
+      main h2 a {
+        text-decoration: none;
+      }
+      article header {
+        margin-bottom: 1rem;
+      }
+      body > footer {
+        border-top: 1px solid var(--nc-bg-3);
+        padding-top: 1rem;
+        margin-top: 2rem;
+      }
+      /* Cecil features */
+      .page-nav {
+        display: flex;
+      }
+      .page-nav a {
+        text-decoration: none;
+      }
+      .page-nav .prev:before {
+        content: "\002039";
+        margin-right: .5rem;
+      }
+      .page-nav .next {
+        margin-left: auto;
+      }
+      .page-nav .next:after {
+        content: "\00203A";
+        margin-left: .5rem;
+      }
+      .term:before {
+        content: "#";
+      }
+      /* Notes */
+      main .note {
+        position: relative;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem;
+        border: 1px solid var(--nc-bg-3);
+        border-left-width: 4px;
+      }
+      main .note > p {
+        margin: 0;
+      }
+      main .note-info {
+        border: 1px solid blue;
+        border-left-width: 4px;
+      }
+      main .note-tip {
+        border: 1px solid green;
+        border-left-width: 4px;
+      }
+      main .note-important {
+        border: 1px solid purple;
+        border-left-width: 4px;
+      }
+      main .note-warning {
+        border: 1px solid orange;
+        border-left-width: 4px;
+      }
+      main .note-caution {
+        border: 1px solid red;
+        border-left-width: 4px;
+      }
     {% endapply %}</style>
     {%- endblock head ~%}
   </head>
@@ -35,10 +166,6 @@
     </main>
     <footer>
       {%- block footer ~%}
-      {%- set powered_by -%}
-      <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
-      {%- endset ~%}
-      <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
       {%- endblock footer ~%}
     </footer>
   </body>

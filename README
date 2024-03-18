@@ -1,0 +1,5 @@
+Este repositorio genera la web estática en Google Pages de la comunidad Mozilla en España
+
+https://mozhispania.github.io
+
+Usamos [cecil](https://cecil.app) para generar el sitio. Los documentos son en markdown. PRs bienvenidas.

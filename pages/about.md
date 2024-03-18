@@ -1,5 +1,5 @@
 ---
-title: Acerca de este sitio
+title: Acerca
 slug: a-proposito
 menu:
   main:

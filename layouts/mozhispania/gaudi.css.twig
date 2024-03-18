@@ -1,15 +1,21 @@
+body {
+    background: url("/img/espana_logo.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
 nav {
     display: flex; /*1*/
     flex-direction : row; /*2*/
     justify-content: flex-start; /*3*/
-    background: #222;
+    background: #F1BF00;
 }
  nav li {
-    flex:auto;
+    margin: 2px !important;
 }
 
 nav a {
-    color: orange;
+    color: #AA151B;
     font-family: monospace;
     font-size: 1.1em;
     text-decoration: none;
@@ -18,4 +24,8 @@ nav a {
 
 nav a:hover {
     color:white;
+}
+
+ol li::marker {
+  color:red;
 }

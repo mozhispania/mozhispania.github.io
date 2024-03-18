@@ -6,14 +6,14 @@
   <subtitle><![CDATA[Micro-sitio de presentación de las oportunidades de colaboración de voluntarios españoles con Mozilla]]></subtitle>
   <link href="https://mozhispania.github.io/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://mozhispania.github.io/" rel="alternate" type="text/html" />
-  <updated>2024-03-18T14:45:47+00:00</updated>
+  <updated>2024-03-18T16:38:43+00:00</updated>
   <author>
     <name>Pascal Chevrel</name>
     <uri>https://www.mozilla.org/</uri>
   </author>
   <entry xml:lang="es">
     <id>https://mozhispania.github.io/a-proposito/</id>
-    <title>Acerca de este sitio</title>
+    <title>Acerca</title>
     <content type="html">
       <![CDATA[<h3 id="interesado-en-participar-en-un-proyecto-de-creación-de-comunidad-mozilla-en-españa">¿Interesado en participar en un proyecto de creación de comunidad Mozilla en España?</h3>
 <p><br>
@@ -29,7 +29,7 @@ Mozilla es uno de los proyectos de software libre y de defensa la web abierta m�
 <em>Firefox Release Manager</em></p>]]>
     </content>
     <link href="https://mozhispania.github.io/a-proposito/" rel="alternate" type="text/html" />
-    <published>2024-03-18T14:45:47+00:00</published>
-    <updated>2024-03-18T14:45:47+00:00</updated>
+    <published>2024-03-18T16:38:43+00:00</published>
+    <updated>2024-03-18T16:38:43+00:00</updated>
   </entry>
 </feed>

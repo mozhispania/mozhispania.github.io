@@ -147,8 +147,9 @@
   <body>
     <header>
       {%- block header ~%}
+      <img src="/img/espana_logo.png">
       {%- if page.type == 'homepage' ~%}
-      <h1>{{ site.title }}</h1>
+        <h1>{{ site.title }}</h1>
       {%- else ~%}
       <div class="title">
         <a href="{{ url(site.home) }}">{{ site.title }}</a>
